@@ -1,0 +1,19 @@
+{
+  "name": "wandernest",
+  "version": "1.0.0",
+  "description": "Hotel booking app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manishh444/WanderNest.git"
+  },
+  "author": "Manish Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishh444/WanderNest/issues"
+  },
+  "homepage": "https://github.com/Manishh444/WanderNest#readme"
+}
