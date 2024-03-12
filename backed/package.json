@@ -1,9 +1,12 @@
 {
+  "type": "module",
   "name": "backed",
   "version": "1.0.0",
   "description": "hotel booking app",
   "main": "./src/server.ts",
   "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon ./src/server.ts",
     "test": "jest"
   },
   "author": "Manish",
