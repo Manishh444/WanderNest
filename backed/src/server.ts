@@ -1,16 +1,7 @@
-import express, { Request, Response } from "express";
-import cors from "cors";
-import "dotenv/config";
+import express from "express";
 
 const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(cors());
-
-app.get("/api/test", async (req: Request, res: Response) => {
-  await res.json({ message: "hello world" });
-});
 
 app.listen(5000, () => {
-  console.log("server listening on port 5000");
+  console.log("hello");
 });

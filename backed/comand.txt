@@ -1,0 +1,13 @@
+659  mkdir src
+  660  npm init -y
+  661  npm i -D typescript @types/express @types/node
+  662  npm i express
+  665  cd src/
+  666  touch server.ts
+  673  npx tsc --init // THIS command create config file
+  // also some important changes to make in config file 
+ //"outDir": "./dist" / //  this help create a build in seprate folder which is eassy to deploye
+ // "rootDir": "./src" /* S this make sure where is root file placed 
+  676  npx tsc //  this command complile typescript and create javascript file
+  677  node dist/server.js
+  678  history
