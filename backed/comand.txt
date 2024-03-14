@@ -11,3 +11,8 @@
   676  npx tsc //  this command complile typescript and create javascript file
   677  node dist/server.js
   678  history
+
+  ------------------------------------------------------------------------------
+   //  docker run -d -p 5000:5000 --name devcon devserimg// command to run conatiner 
+
+   // docker rm conatiner_name -f // stop and delete conatiner and its volume.
